@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+a:4:{s:4:"root";s:24:"./assets/less/style.less";s:8:"compiled";s:24620:"@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @charset "UTF-8";
 @-ms-viewport {
   width: device-width;
@@ -1182,3 +1182,4 @@ header .avatar {
     width: 320px !important;
   }
 }
+";s:5:"files";a:3:{s:48:"C:\OpenServer\domains\meg\assets\less\style.less";i:1669142101;s:52:"C:\OpenServer\domains\meg\assets\less\normalize.less";i:1625160213;s:48:"C:\OpenServer\domains\meg\assets\less\modal.less";i:1625160213;}s:7:"updated";i:1669142105;}

@@ -2,9 +2,15 @@
 @import "normalize";
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
-  color: black;
+  background: #1C1F22;
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
 }
 
 .dn {
@@ -28,6 +34,7 @@ body {
   display: block;
   content: "";
 }
+
 .embed-responsive {
   position: relative;
   display: block;
@@ -54,6 +61,7 @@ body {
   background: #000;
   position: relative;
 }
+
 .yt-toggle-play {
   .dfc;
   text-align: center;
@@ -69,18 +77,22 @@ body {
   transition: 0.15s all;
   opacity: 1;
 }
+
 .yt-toggle-play.in-process {
   pointer-events: none;
   opacity: 0.95;
 }
+
 .yt-toggle-play.c-hide {
   opacity: 0;
 }
+
 .yt-toggle-play .play-icn {
   transition: 0.2s all;
   width: 15%;
   color: rgba(255, 0, 0, 0.6);
 }
+
 .yt-toggle-play:hover .play-icn {
   color: rgba(255, 0, 0, 1);
 }
@@ -264,13 +276,80 @@ body {
     }
   }
 }
+
 header {
-  color: white;
-  padding: 15px 0;
-  background: rgba(0, 0, 0, 0.8);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
+  width: 140px;
+  background: #1A1D20;
+  padding: 42px 0;
+  .df;
+  .fc;
+  .vc;
+
+  span {
+    color: #F76C68;
+  }
+
+  .logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+
+  .cart {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #25292C;
+    border-radius: 13px;
+    margin-top: 34px;
+    .dfc;
+  }
+
+  ul {
+    margin-top: auto;
+
+    li {
+      &:not(:last-child) {
+        margin-bottom: 18px;
+      }
+
+      a {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #656B72;
+      }
+    }
+
+    button {
+      margin-top: 36px;
+      width: 30px;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      text-align: left;
+      .df;
+      padding: 7px 0;
+
+      span {
+        width: 80%;
+        height: 1px;
+        background: #fff;
+      }
+    }
+  }
+
+  .avatar {
+    margin-top: auto;
+    border: 1px solid #25292C;
+    border-radius: 13px;
+  }
 }
+
+.main {
+  flex-grow: 1;
+  background: #1C1F22;
+}
+
 .center {
   text-align: center;
 }
@@ -305,8 +384,7 @@ header {
   }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-}
+@media (min-width: 576px) and (max-width: 767px) {}
 
 // 0px - 767px
 @media (max-width: 767px) {
@@ -329,6 +407,7 @@ header {
 }
 
 @media (max-width: 320px) {
+
   header,
   section,
   footer {
