@@ -618,8 +618,70 @@ header .avatar {
 .main {
   flex-grow: 1;
   background: #1C1F22;
-  padding: 55px 80px 88px;
-  border-radius: 40px;
+  padding: 50px 63px 88px;
+  border-radius: 40px 0 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.main .search-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+.main .search-block input {
+  font-weight: 400;
+  font-size: 15px;
+  color: #656B72;
+  margin-right: 32px;
+  width: 128px;
+  height: 20px;
+}
+.main .home-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.main .bottom-block {
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: right;
+}
+.main .bottom-block .social-links a {
+  font-size: 16px;
+  margin: 0 5px;
+  line-height: 16px;
+  color: #656B72;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.main .bottom-block .social-links a:hover {
+  color: #F76C68;
+}
+.main .bottom-block .copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #656B72;
 }
 .center {
   text-align: center;

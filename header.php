@@ -30,6 +30,7 @@ autoCompileLess('./assets/less/style.less', './assets/css/style.css');
     <!--<meta name="viewport" content="width=1300px">-->
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css" type="text/css" />
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/c3e8eab146.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
